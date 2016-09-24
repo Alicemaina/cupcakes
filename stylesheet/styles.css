@@ -1,0 +1,24 @@
+h2 {
+    background-image: url(images/cupcakes-fruit-desserts-cropped.png);
+    font-family: sans-serif;
+    height: 30%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+    clear: both;
+}
+.col-1-3,
+.col-2-3  {
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1-3 {
+  width: 33.33%;
+}
+.col-2-3 {
+  width: 66.66%;
